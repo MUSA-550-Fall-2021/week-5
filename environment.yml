@@ -21,7 +21,7 @@ dependencies:
   - seaborn=0.11.2
   - vega_datasets=0.9.0
   - vega=3.5.0
-  - geopandas=0.9.0
+  - geopandas=0.10.2
   - shapely=1.7.1
   - descartes=1.1.0
   - pyepsg=0.4.0
@@ -61,16 +61,17 @@ dependencies:
   - scikit-learn=0.24.2
   - flask=2.0.1
   - dash=1.21.0
-  - tweepy=3.10.0
+  - tweepy=4.4.0
   - textblob=0.15.3
   - nltk=3.6.2
   - rio-toa=0.3.0
   - rioxarray=0.7.0
   - missingno=0.4.2
+  - kneed=0.7.0
   - pip:
       - us==2.0.2
-      - carto2gpd==1.0.7
-      - esri2gpd==1.0.7
+      - carto2gpd==1.0.11
+      - esri2gpd==1.0.12
       - osm2gpd==1.0.1
       - webdriver_manager==3.4.2
       - jupyter-panel-proxy==0.1.0
